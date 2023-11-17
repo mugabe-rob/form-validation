@@ -6,9 +6,9 @@ This project demonstrates a basic form validation implementation using JavaScrip
 
 - **Username Validation:** Validates the format of the email username using a specific expression.
 -  **Email Validation:** Validates the format of the email address using a regular expression.
-- **Password Strength Check:** Ensures that the password meets certain criteria for strength.
+- **Password Strength Check:** Ensures that the passwords match
 
-  #Author: 
+  ### Author: 
         https://github.com/mugabe-rob
 
 ![Screenshot 2023-11-17 215052](https://github.com/mugabe-rob/form-validation/assets/139157186/6707a9aa-f35e-44c3-baca-51186f1888d1)
