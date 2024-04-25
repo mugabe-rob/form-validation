@@ -1,0 +1,86 @@
+<?php
+$servername='localhost';
+$username='root';
+$password='';
+$databasename='form';
+$con=mysqli_connect($servername,$username,$password,$databasename);
+if($con){
+	echo'Connected successfully';
+}
+else{
+	echo'Not connected';
+}
+
+if(isset($_POST['send'])){
+
+$a=$_POST['Numbers'];
+$b=$_POST['Gender'];
+$c=$_POST['Department'];
+$d=$_POST['School'];
+}
+$sql="INSERT INTO client(Numbers,Gender,Department,School)
+VALUES('$a','$b','$c','$d')";
+$run=mysqli_query($con,$sql);
+if($run)
+{
+echo"<script>alert('Application sent successfully!')</script>";
+}
+else{
+  echo"<script>alert('oops! Something wrong')</script>";
+}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="order">
+            <h1>Book your Spot</h1>
+            <form action="order.html" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" required><br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+                <label for="food">Food:</label><br>
+                <select id="food" name="food">
+                    <option value="fish">Fish</option>
+                    <option value="drink">Drink</option>
+                    <option value="juice">Fresh Juice</option>
+                    <option value="juice">Wine</option>
+                    <option value="juice">Beer</option>
+                    <option value="juice">Beef</option>
+                    <option value="juice">Salad</option>
+                    <!-- Add more options here -->
+                </select><br>
+                <input type="submit" name= "send"value="Submit Order">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Robertson - All Rights Reserved</p>
+    </footer>
+</body>
+</html>

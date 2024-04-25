@@ -1,0 +1,397 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #73d0e6;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#gallery img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 7px;
+    transition: transform 0.2s ease-in-out;
+    align-content: center;
+    margin-left: 50px;
+
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+header {
+    background-color: #67c4c6;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f4f4f4;
+}
+
+#about {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#about h1, #about h2 {
+    color: #444;
+}
+
+#about p {
+    margin-bottom: 20px;
+}
+
+#menu {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 20px 20px 10px rgba(0,0,0,0.1);
+    align-content: center;
+    margin-left: 25%;
+    border-radius: 7px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#menu table {
+    margin: 0 auto;
+    width: 60%;
+     /* Adjust this value to suit your design */
+}
+
+#menu th, #menu td {
+    padding: 10px;
+    border: 1px solid #848383;
+}
+
+#menu th {
+    background-color: #e3d7d7;
+    color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#order {
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f3f3;
+    border-radius: 7px;
+    margin-top: 75px;
+    box-shadow: 20px 20px 10px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#order h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#order form {
+    display: flex;
+    flex-direction: column;
+}
+
+#order label {
+    margin-bottom: 5px;
+
+
+}
+
+#order input[type="text"], #order input[type="tel"], #order select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#order input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#order input[type="submit"]:hover {
+    background-color: #1eb8c3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact {
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e9e8e8;
+    border-radius: 5px;
+    box-shadow: 20px 20px 10px rgba(0,0,0,0.1);
+    margin-top: 120px;
+}
+
+#contact h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    resize: vertical;
+
+}
+
+#contact input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #262e2f;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #55979c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background-image: url('5.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+#hero h1 {
+    color: #fff;
+    font-size: 7.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#testimonials, #gallery {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+#testimonials h2, #gallery h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Reset the list style */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+/* Style the list items */
+nav ul li {
+    padding: 15px 20px;
+}
+
+/* Style the links */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Change the link color on hover */
+nav ul li a:hover {
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
+}
