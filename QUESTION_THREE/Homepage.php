@@ -8,29 +8,28 @@
 </head>
 <body>
     <header>
-        <!-- Navigation menu -->
+        
         <nav>
             <ul>
-                <li><a href="Homepage.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="order.html">Order</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Homepage.php">Home</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="order.php">Order</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="login.php">Login</a></li>
+
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- Hero section with image -->
+        
         <section id="hero">
             
             <h1 style="color: rgb(242, 237, 237);"> Welcome to Mariot</h1>
         </section>
 
-        <!-- Testimonials section -->
-        
-        <!-- Gallery section -->
         
     </main>
 
